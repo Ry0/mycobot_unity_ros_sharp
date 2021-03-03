@@ -49,11 +49,15 @@ git clone https://github.com/Ry0/mycobot_unity_ros_sharp.git
 
 動作を確認したときのcommit IDは[f469726](https://github.com/siemens/ros-sharp/commit/f469726d5dad3613d10c00d8f35e4c0050c2ac8b)。
 
-コピー作業が完了したらUnityでプロジェクトとして開く。
+コピー作業が完了したらUnity Hub上で、クローンしてきたフォルダを選択してリストに追加する。
+
+![img](.image/3.jpg)
+
+追加後、プロジェクトを開く。
 
 ## 動作させる
 ### Ubuntu
-myCobotがmoveitのGUIを使って動かせる状態にする。
+myCobotがMoveitのGUIを使って動かせる状態にしておく。
 
 このlaunchでunityとの接続を実施。
 
