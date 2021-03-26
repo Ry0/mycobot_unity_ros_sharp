@@ -73,6 +73,8 @@ Unity側でROS Coreが立ち上がっているIPアドレスを指定する箇�
 
 ## デモ
 
+![img](.image/demo.gif)
+
 ## 参考ページ
 
 * https://github.com/siemens/ros-sharp/wiki
