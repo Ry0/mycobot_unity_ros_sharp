@@ -19,12 +19,12 @@
     <child link="base_link" />
   </joint>
 
-  <link name="camera_link"/>
+  <!-- <link name="camera_link"/>
   <joint name="joint_kinect_first" type="fixed">
     <origin xyz="-0.7137 0.215 0.4331" rpy="-0.0415 0.3679 -0.2391" />
     <parent link="world"/>
     <child link="camera_link"/>
-  </joint>
+  </joint> -->
 
   <!-- <joint name="joint_rgb_kinect_first" type="fixed">
     <origin rpy="${M_PI/2} ${M_PI} ${M_PI/2}"/>
@@ -43,7 +43,7 @@
     <link name="base_link">
       <visual>
         <geometry>
-          <mesh filename="package://mycobot_description/meshes/stl/visual/base_link.stl" scale="0.001 0.001 0.001" />
+          <mesh filename="package://mycobot_description/meshes/stl/visual/base_link.dae" scale="0.001 0.001 0.001" />
         </geometry>
         <origin xyz="0 0 0" rpy="0 0 ${M_PI}" />
         <material name="white" />
