@@ -1,6 +1,6 @@
 # myCobotをMoveItで動かしながらUnityで可視化する
 
-![img](.image/header.jpg)
+![img](.image/header.gif)
 
 ## 概要
 * MoveItでパスプランニングを実施。
@@ -16,7 +16,7 @@
 ### Windows
 
 * Windows 10
-* Unity 2019.2.15f1（古くてごめんなさい）
+* Unity 2020.3.0f1
 
 ## セットアップ
 ### Ubuntu
